@@ -81,10 +81,7 @@ const ComicDetailPage = () => {
           Back to Comics
         </Link>
 
-        <button onClick={handleDelete} className="btn btn-error btn-outline">
-          <Trash2 className="size-4" />
-          Delete Comic
-        </button>
+       
       </div>
 
       {/* Main Card */}
