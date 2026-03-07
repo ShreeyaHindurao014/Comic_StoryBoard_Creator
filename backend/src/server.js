@@ -1,7 +1,7 @@
 import express from "express";
 import dotenv from "dotenv";
 import recordRoutes from "./routes/recordRoutes.js";
-import {connectDB} from "./config/db.js";
+import {connectDB} from "../config/db.js";
 import n from "node:dns/promises";
 import cors from "cors";
 
